@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>GifTastic</title>
+    <!--css style sheet link-->
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="container">
+        <h2>Cartoon Giphys Galore!</h2>
+        <div id="buttonsClear"></div>
+        <!-- Movies will get dumped here -->
+        <div id="cartoonHolder">    
+        </div>
+    
+        <form id="cartoon-form">
+          <label for="cartoonInput">Add a Cartoon</label>
+          <input type="text" id="cartoonInput"><br>
+    
+          <!-- Button triggers new movie to be added -->
+          <input id="addCartoon" type="submit" value="Submit">
+        </form>
+  <div id="imgContainer"></div>
+        
+    <!--jquery link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--javascript link  -->
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>

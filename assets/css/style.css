@@ -1,0 +1,32 @@
+#buttonsClear {
+
+};
+
+#addCartoon {
+
+};
+
+#cartoonInput {
+
+};
+
+#cartoonHolder {
+
+};
+
+#imgContainer {
+    
+}
+
+button {
+    background: aqua;
+}
+
+h2 {
+    font-family: Comic Sans MS;
+    font-size: 48pt;
+    text-align: center;
+    line-height: 14px;
+    color: #fc23cd;
+      
+      }
